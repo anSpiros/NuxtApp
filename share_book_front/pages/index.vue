@@ -2,14 +2,16 @@
   <div class="container">
     <div>
       <h2>Hello World</h2>
+      <Test :user="{firstName: 'dasdas', lastName: 'Spiros'}"/>
     </div>
   </div>
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
+import Test from '~/components/test.vue'
 
 export default {
+  components: {Test}
 }
 </script>
 

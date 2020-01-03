@@ -12,8 +12,9 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
+    "@nuxtjs/axios": "^5.3.6",
     "nuxt": "latest",
-    "@nuxtjs/axios": "^5.3.6"
+    "vue-property-decorator": "^8.3.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "latest",
