@@ -1,0 +1,13 @@
+version: "3"
+services:
+
+  share_book:
+    container_name: share_book_nuxt
+    build: .
+    restart: always
+    environment:
+      - HOST=0.0.0.0
+    volumes:
+      - ./share_book_front:/app
+    ports:
+      - 5000:3000
